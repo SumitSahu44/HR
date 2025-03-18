@@ -23,7 +23,7 @@ const App = () => {
           </header>
 
 
-      <div  className='flex gap-20'>
+      <div  className='flex gap-2.5 sm:gap-20'>
         {/* left ribbin  */}
           <div className='w-[8vw]'>
              <img src={leftRibbin} alt="Left Ribbon" />
@@ -31,7 +31,7 @@ const App = () => {
 
 
           {/* right content  */}
-          <div>
+          <div className='w-[85%]'>
             <Home/>
           </div>
       
