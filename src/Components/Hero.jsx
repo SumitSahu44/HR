@@ -4,7 +4,7 @@ import magentaWheel  from '../assets/magenta.png'
 import logo2 from '../assets/logo2.png'
 const Hero = () => {
   return (
-   <div className='bg-linear-to-r relative  h-[40vw] from-[#3A99C9]  to-[#0073AE]'>
+   <div className='bg-linear-to-r relativem ml-[5vw]  h-[40vw] from-[#3A99C9]  to-[#0073AE]'>
       <h2 className='text-white md:p-4 w-[80%] m-auto  text-[2vw] font-bold text-center'>Contributing to performance, talent & leadership excellence across industries since 2007</h2>
         <div>
           <img src={magentaWheel} className='absolute h-[17vw] top-[50%] z-50 left-[50%] translate-[-50%]'  alt="" />

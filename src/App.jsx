@@ -8,15 +8,15 @@ const App = () => {
            <Navbar/>
 
 
-            <div  className='flex gap-2.5 sm:gap-20'>
+            <div className='flex'>
               {/* left ribbin  */}
-                <div className='w-[8vw]'>
-                  <img src={leftRibbin} alt="Left Ribbon" />
+                <div className='w-[8vw] '>
+                  <img src={leftRibbin} className='h-full' alt="Left Ribbon" />
                 </div>
 
 
               {/* right content  */}
-              <div className='w-[85%]'>
+              <div className='w-[90%]'>
                 <Home/>
               </div>
           
