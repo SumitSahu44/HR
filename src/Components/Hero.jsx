@@ -35,7 +35,7 @@ const Hero = () => {
        </div>
          
 
-         <img src={logo2} className='absolute bottom-5 right-5' alt="" />
+         <img src={logo2} className='absolute bottom-[1.5vw] h-[8vw] right-[1.5vw]' alt="" />
    </div>
   
   )
