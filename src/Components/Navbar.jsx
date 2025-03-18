@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-md max-w-[98%] mx-auto flex justify-between items-center p-4 md:px-8">
+    <header className="bg-white max-w-[98%] mx-auto flex justify-between items-center p-4 md:px-8">
       {/* Logo */}
       <img src={logo} className="h-[6vw] max-h-12" alt="Logo" />
 

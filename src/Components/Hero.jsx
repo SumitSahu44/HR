@@ -1,7 +1,7 @@
 import React from 'react'
 import blueWheel  from '../assets/blue.png'
 import magentaWheel  from '../assets/magenta.png'
-
+import logo2 from '../assets/logo2.png'
 const Hero = () => {
   return (
    <div className='bg-linear-to-r relative  h-[40vw] from-[#3A99C9]  to-[#0073AE]'>
@@ -34,6 +34,8 @@ const Hero = () => {
            <h5 className='absolute bottom-[12%] right-[26.5%]  translate-[-50%] text-[1.5vw] font-[500] text-white w-[8vw] text-center'> Team Solutions</h5>
        </div>
          
+
+         <img src={logo2} className='absolute bottom-[1.5vw] h-[8vw] right-[1.5vw]' alt="" />
    </div>
   
   )
