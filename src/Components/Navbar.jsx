@@ -29,7 +29,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <nav className="absolute top-15 z-90 left-0 w-full bg-white shadow-md p-4 z-50 md:hidden">
+        <nav className="absolute top-15 z-90 left-0 w-full bg-white shadow-md p-4  md:hidden">
           <ul className="flex flex-col items-center gap-4 text-lg text-gray-600">
             <li className="hover:text-gray-900 cursor-pointer">Home</li>
             <li className="hover:text-gray-900 cursor-pointer">About</li>
