@@ -6,14 +6,14 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-white max-w-[98%] mx-auto flex justify-between items-center p-4 md:px-8">
+    <header className="bg-white md:pr-9 mx-auto flex justify-between items-center">
       {/* Logo */}
-      <img src={logo} className="h-[6vw] max-h-12" alt="Logo" />
+      <img src={logo} className="h-[6vw]" alt="Logo" />
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex">
         <ul className="flex gap-8 text-lg text-gray-600">
-          <li className="hover:text-gray-900 cursor-pointer">Home</li>
+          <li className="hover:text-gray-900 font-bold cursor-pointer">Home</li>
           <li className="hover:text-gray-900 cursor-pointer">About</li>
           <li className="hover:text-gray-900 cursor-pointer">Why Us</li>
           <li className="hover:text-gray-900 cursor-pointer">Solutions</li>
