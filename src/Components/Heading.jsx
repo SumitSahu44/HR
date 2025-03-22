@@ -16,10 +16,10 @@ const Heading = () => {
                <p>Shaping and building Talent, performance, teams and leader</p>
             </div>
             <div className='bg-[#3A99C9] p-[30px]'>
-               <p>Shaping and building Talent, performance, teams and leader</p>
+               <p>⁠delivering excellence through people advisory and processes appropriately customised</p>
             </div>
             <div className='bg-[#3A99C9] p-[30px]'>
-               <p>Shaping and building Talent, performance, teams and leader</p>
+               <p>harnessing potential, building the leadership pipeline and coaching leaders for success</p>
             </div>
          </div>
       
