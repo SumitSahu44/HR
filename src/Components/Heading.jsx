@@ -11,7 +11,7 @@ const Heading = () => {
         <div className='w-[0.5vw]  absolute top-[0vw] left-[3vw] h-full bg-amber-800'></div>
     
 
-        <div className='flex ml-[5vw] mt-[20px] md:mt-[3vw]  gap-10 min-w-[300px] flex-wrap '>
+        <div className='flex ml-[5vw] gap-5 mt-[20px] md:mt-[3vw]  md:gap-10 min-w-[300px] flex-wrap '>
             <div className='bg-[#3A99C9] w-[280px] md:w-[500px] p-[30px]'>
                <p>Shaping and building Talent, performance, teams and leader</p>
             </div>
