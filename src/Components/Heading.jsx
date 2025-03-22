@@ -12,13 +12,13 @@ const Heading = () => {
     
 
         <div className='flex ml-[5vw] mt-[3vw] gap-10 min-w-[300px] flex-wrap '>
-            <div className='bg-[#3A99C9] w-[30vw] p-[30px]'>
+            <div className='bg-[#3A99C9] w-[280px] md:w-[500px] p-[30px]'>
                <p>Shaping and building Talent, performance, teams and leader</p>
             </div>
-            <div className='bg-[#3A99C9]  w-[30vw] p-[30px]'>
+            <div className='bg-[#3A99C9]  w-[280px] md:w-[500px] p-[30px]'>
                <p>⁠delivering excellence through people advisory and processes appropriately customised</p>
             </div>
-            <div className='bg-[#3A99C9]  w-[30vw] p-[30px]'>
+            <div className='bg-[#3A99C9]  w-[280px] md:w-[500px] p-[30px]'>
                <p>harnessing potential, building the leadership pipeline and coaching leaders for success</p>
             </div>
          </div>
