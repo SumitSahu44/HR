@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CommonHeading from './CommonHeading';
 const cardData = [
   {
     title: 'Empowered Performance',
@@ -24,7 +24,7 @@ const cardData = [
 ];
 
 const Card = ({ title, description }) => (
-  <div className="flex items-start border-l-2 border-gray-300 pl-4 p-6 shadow-lg rounded-lg bg-white">
+  <div className="flex ml-[5vw] mt-[20px]  items-start border-l-2 border-gray-300 pl-4 p-6 shadow-lg rounded-lg bg-white">
     <img alt="Pink gears icon" className="mr-4 mt-1" src="https://placehold.co/30x30" />
     <div>
       <h2 className="text-xl font-bold mb-2">{title}</h2>
@@ -38,12 +38,15 @@ const Card = ({ title, description }) => (
 
 const Services = () => {
   return (
+  <div className='mt-[2vw] relative'>
+     <CommonHeading title="Services Architecture"/>
     <div className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {cardData.map((item, index) => (
           <Card key={index} title={item.title} description={item.description} />
         ))}
       </div>
+    </div>
     </div>
   );
 };
