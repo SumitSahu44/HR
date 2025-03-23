@@ -10,14 +10,17 @@ const Home = () => {
     <div>
       <Hero/>
       <Contact/>
+
       <SectionsLine/>
       <Strength/>
 
       <SectionsLine/>
-    
-
       <Services/>
-<LogoGrid/>
+
+      <SectionsLine/>
+      <LogoGrid/>
+
+      
       </div>
   )
 }
