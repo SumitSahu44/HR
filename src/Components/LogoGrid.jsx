@@ -1,4 +1,5 @@
 import React from "react";
+import CommonHeading from "./CommonHeading";
 import xlriLogo from "../assets/image 4.png";
 import conferenceBoardLogo from "../assets/image 5.png";
 import iitRoorkeeLogo from "../assets/image 6.png";
@@ -31,6 +32,8 @@ const logos = [
 ];
 const LogoGrid = () => {
   return (
+   <div className='mt-[2vw] relative'>
+    <CommonHeading title="Our Academic and Professional learning Exposures" />
     <div className="container mx-auto py-10">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center justify-center">
         {logos.map((logo, index) => (
@@ -39,6 +42,7 @@ const LogoGrid = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
