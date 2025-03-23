@@ -24,7 +24,7 @@ const cardData = [
 ];
 
 const Card = ({ title, description }) => (
-  <div className="flex ml-[5vw] mt-[20px]  items-start border-l-2 border-gray-300 pl-4 p-6 shadow-lg rounded-lg bg-white">
+  <div className="flex ml-[5vw] mt-[20px]  items-start border-l-6 border-[#969696] pl-4 p-6  bg-white">
     <img alt="Pink gears icon" className="mr-4 mt-1" src="https://placehold.co/30x30" />
     <div>
       <h2 className="text-xl font-bold mb-2">{title}</h2>
