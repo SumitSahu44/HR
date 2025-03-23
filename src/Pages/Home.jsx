@@ -1,15 +1,22 @@
 import React from 'react'
 import Hero from '../Components/Hero'
 import Contact from '../Components/Contact'
-import Heading from '../Components/Heading'
+import Strength from '../Components/Strength'
 import SectionsLine from '../Components/SectionsLine'
+import Services from '../Components/Services'
 const Home = () => {
   return (
     <div>
       <Hero/>
       <Contact/>
       <SectionsLine/>
-      <Heading/>
+      <Strength/>
+
+      <SectionsLine/>
+    
+
+      <Services/>
+
       </div>
   )
 }
