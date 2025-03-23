@@ -1,7 +1,7 @@
 import React from 'react'
 import CommonHeading from './CommonHeading'
 
-const Heading = () => {
+const Strength = () => {
   return (
    <div className='mt-[2vw] relative'>
     <CommonHeading title="Our Strength"/>
@@ -21,4 +21,4 @@ const Heading = () => {
   )
 }
 
-export default Heading
+export default Strength
