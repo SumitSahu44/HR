@@ -36,7 +36,7 @@ const Card = ({ title, description }) => (
   
       <h2 className="text-xl  font-bold mb-2">{title}</h2>
       <p className="text-gray-600 mb-4">{description}</p>
-      <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+      <button className="bg-[#006699] text-white px-4 py-2 rounded hover:bg-[#006680] transition">
         Read More
       </button>
     </div>
