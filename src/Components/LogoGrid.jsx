@@ -1,18 +1,34 @@
 import React from "react";
+import xlriLogo from "../assets/image 4.png";
+import conferenceBoardLogo from "../assets/image 5.png";
+import iitRoorkeeLogo from "../assets/image 6.png";
+import mdiLogo from "../assets/image 7.png";
+import imdLogo from "../assets/image 8.png";
+import isbLogo from "../assets/image 9.png";
+import stanfordLogo from "../assets/image 10.png";
+import ashridgeLogo from "../assets/image 11.png";
+import iimCalcuttaLogo from "../assets/image 12.png";
+import otherLogo from "../assets/image 13.png";
 
 const logos = [
-  { src: "/path-to-xlri-logo.png", alt: "XLRI Jamshedpur" },
-  { src: "/path-to-conference-board-logo.png", alt: "The Conference Board" },
-  { src: "/path-to-iit-roorkee-logo.png", alt: "IIT Roorkee" },
-  { src: "/path-to-mdi-logo.png", alt: "MDI Gurgaon" },
-  { src: "/path-to-imd-logo.png", alt: "IMD" },
-  { src: "/path-to-isb-logo.png", alt: "ISB" },
-  { src: "/path-to-stanford-logo.png", alt: "Stanford" },
-  { src: "/path-to-ashridge-logo.png", alt: "Ashridge" },
-  { src: "/path-to-iim-calcutta-logo.png", alt: "IIM Calcutta" },
-  { src: "/path-to-other-logo.png", alt: "Other Institute" },
-];
+{ src: ashridgeLogo, alt: "Ashridge" },
+{ src: mdiLogo, alt: "MDI Gurgaon" },
+  { src: xlriLogo, alt: "XLRI Jamshedpur" },
+  { src: conferenceBoardLogo, alt: "The Conference Board" },
+  { src: iimCalcuttaLogo, alt: "IIM Calcutta" },
+  { src: isbLogo, alt: "ISB" },
+  { src: imdLogo, alt: "IMD" },
 
+  { src: otherLogo, alt: "Other Institute" },
+
+  { src: stanfordLogo, alt: "Stanford" },
+  { src: iitRoorkeeLogo, alt: "IIT Roorkee" },
+ 
+ 
+ 
+ 
+ 
+];
 const LogoGrid = () => {
   return (
     <div className="container mx-auto py-10">
