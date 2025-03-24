@@ -5,6 +5,8 @@ import Strength from '../Components/Strength'
 import SectionsLine from '../Components/SectionsLine'
 import Services from '../Components/Services'
 import LogoGrid from '../Components/LogoGrid'
+import EmpoweredPerformance from '../Components/empoweredPerformance'
+import TeamSolutions from '../Components/teamSolutions'
 const Home = () => {
   return (
     <div>
@@ -16,6 +18,12 @@ const Home = () => {
 
       <SectionsLine/>
       <Services/>
+
+      <SectionsLine/>
+      <EmpoweredPerformance/>
+
+      <SectionsLine/>
+      <TeamSolutions/>
 
       <SectionsLine/>
       <LogoGrid/>
