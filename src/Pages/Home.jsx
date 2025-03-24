@@ -10,6 +10,7 @@ import TeamSolutions from '../Components/teamSolutions'
 import AboutUs from '../Components/aboutUs'
 import KeyDifferentiators from '../Components/KeyDifferetiators'
 import LeaderShipCoachingAndDevelopment from '../Components/LeaderShipCoachingAndDevelopment'
+import IndustriesWeServed from '../Components/industriesWeServed'
 const Home = () => {
   return (
     <div>
@@ -21,6 +22,10 @@ const Home = () => {
 
       <SectionsLine/>
       <KeyDifferentiators/>
+      
+
+      <SectionsLine/>
+      <IndustriesWeServed/>
 
       <SectionsLine/>
       <Services/>
