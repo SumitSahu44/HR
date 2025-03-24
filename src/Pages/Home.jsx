@@ -7,6 +7,7 @@ import Services from '../Components/Services'
 import LogoGrid from '../Components/LogoGrid'
 import EmpoweredPerformance from '../Components/empoweredPerformance'
 import TeamSolutions from '../Components/teamSolutions'
+import AboutUs from '../Components/aboutUs'
 const Home = () => {
   return (
     <div>
@@ -27,6 +28,9 @@ const Home = () => {
 
       <SectionsLine/>
       <LogoGrid/>
+
+      <SectionsLine/>
+      <AboutUs/>
 
       
       </div>
