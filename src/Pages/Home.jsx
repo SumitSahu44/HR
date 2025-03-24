@@ -5,6 +5,9 @@ import Strength from '../Components/Strength'
 import SectionsLine from '../Components/SectionsLine'
 import Services from '../Components/Services'
 import LogoGrid from '../Components/LogoGrid'
+import EmpoweredPerformance from '../Components/empoweredPerformance'
+import TeamSolutions from '../Components/teamSolutions'
+import AboutUs from '../Components/aboutUs'
 import KeyDifferentiators from '../Components/KeyDifferetiators'
 import LeaderShipCoachingAndDevelopment from '../Components/LeaderShipCoachingAndDevelopment'
 const Home = () => {
@@ -23,10 +26,19 @@ const Home = () => {
       <Services/>
 
       <SectionsLine/>
+      <EmpoweredPerformance/>
+
+      <SectionsLine/>
+      <TeamSolutions/>
+
+      <SectionsLine/>
       <LeaderShipCoachingAndDevelopment/>
 
       <SectionsLine/>
       <LogoGrid/>
+
+      <SectionsLine/>
+      <AboutUs/>
 
       
 
