@@ -8,6 +8,8 @@ import LogoGrid from '../Components/LogoGrid'
 import EmpoweredPerformance from '../Components/empoweredPerformance'
 import TeamSolutions from '../Components/teamSolutions'
 import AboutUs from '../Components/aboutUs'
+import KeyDifferentiators from '../Components/KeyDifferetiators'
+import LeaderShipCoachingAndDevelopment from '../Components/LeaderShipCoachingAndDevelopment'
 const Home = () => {
   return (
     <div>
@@ -16,6 +18,9 @@ const Home = () => {
 
       <SectionsLine/>
       <Strength/>
+
+      <SectionsLine/>
+      <KeyDifferentiators/>
 
       <SectionsLine/>
       <Services/>
@@ -27,10 +32,15 @@ const Home = () => {
       <TeamSolutions/>
 
       <SectionsLine/>
+      <LeaderShipCoachingAndDevelopment/>
+
+      <SectionsLine/>
       <LogoGrid/>
 
       <SectionsLine/>
       <AboutUs/>
+
+      
 
       
       </div>
