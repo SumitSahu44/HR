@@ -7,10 +7,12 @@ import Services from '../Components/Services'
 import LogoGrid from '../Components/LogoGrid'
 import EmpoweredPerformance from '../Components/empoweredPerformance'
 import TeamSolutions from '../Components/teamSolutions'
-import AboutUs from '../Components/aboutUs'
+import AboutUs from '../Components/AboutUs'
 import KeyDifferentiators from '../Components/KeyDifferetiators'
 import LeaderShipCoachingAndDevelopment from '../Components/LeaderShipCoachingAndDevelopment'
-import IndustriesWeServed from '../Components/industriesWeServed'
+import IndustriesWeServed from '../Components/Industries-We-Served'
+import ContactUs from '../Components/Contact-Us'
+import HowWePlay from '../Components/howWePlay'
 const Home = () => {
   return (
     <div>
@@ -19,6 +21,9 @@ const Home = () => {
 
       <SectionsLine/>
       <Strength/>
+
+      <SectionsLine/>
+      <HowWePlay/>
 
       <SectionsLine/>
       <KeyDifferentiators/>
@@ -45,6 +50,8 @@ const Home = () => {
       <SectionsLine/>
       <AboutUs/>
 
+      <SectionsLine/>
+      <ContactUs/>
       
 
       

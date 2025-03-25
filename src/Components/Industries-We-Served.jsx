@@ -1,6 +1,5 @@
 import React from 'react';
 import CommonHeading from './CommonHeading';
-
 const industries = [
   'Telecommunication', 'Infotech', 'Heavy Metals', 'Retail', 'Engineering',
   'FMCG - Non Durables', 'FMCG - Durables', 'Textiles & Fashion', 'Construction Materials', 'Banking',
@@ -25,7 +24,7 @@ const IndustriesWeServed = () => {
         <div className='bg-white text-black font-semibold text-center p-4 h-24 shadow-md flex items-center justify-center'>
           And Many More...
         </div>
-      </div>
+      </div>   
     </div>
   );
 };
