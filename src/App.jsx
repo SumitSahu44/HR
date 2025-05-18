@@ -1,4 +1,3 @@
-import React from 'react'
 import Home from './Pages/Home'
 import leftRibbin from './assets/left-ribbin.png';
 import Navbar from './Components/Navbar';
