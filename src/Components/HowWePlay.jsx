@@ -6,7 +6,7 @@ function HowWePlay() {
   return (
     <div className="mt-[2vw] relative px-4 sm:px-6">
 
-      <CommonHeading title="How we play" />
+      <CommonHeading title="How We Play" />
 
       <div 
         className="flex flex-wrap justify-center gap-4 p-2 mt-5"
